@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/cheesepizza"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/Tonys_Pizza_text"
+        android:text="Tony's Pizza"
+        android:textSize="45sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/Coopersburgs_Favorite_Pizza_Place_text"
+        android:text="Coopersburg's Favorite Pizza Place!"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tonys_Pizza_text"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/Monday_text"
+        android:text="Monday CLOSED"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Coopersburgs_Favorite_Pizza_Place_text"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/Tuesday_text"
+        android:text="Tuesday 10:00am-9:00pm"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Monday_text"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/Wednesday_text"
+        android:text="Wednesday 10:00am-9:00pm"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tuesday_text"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/Thursday_text"
+        android:text="Thursday 10:00am-9:00pm"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Wednesday_text"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/Friday_text"
+        android:text="Friday 10:00am-9:00pm"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Thursday_text"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/Saturday_text"
+        android:text="Saturday 10:00am-9:00pm"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Friday_text"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/Sunday_text"
+        android:text="Sunday 11:30am-9:00pm"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Saturday_text"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"/>
+
+
+    <TextView
+        android:id="@+id/Address_text"
+        android:text="40 S. Main Street"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sunday_text"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/City_text"
+        android:text="Coopersburg,PA 18036"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Address_text"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/phone_text"
+        android:text="610-282-1696"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/City_text"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/website_text"
+        android:text="tonypizzainc.com"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_text"
+        android:gravity="center_horizontal"/>
+
+
+</RelativeLayout>
